@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: orangered;
+  padding: 16px;
+  border-radius: 16px;
+  color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 16px;
+  border: 3px solid blanchedalmond;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-left: 4px solid blue;
+  background-color: gold;
+  margin: 0 0 5px;
+  color: black;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+.question-text {
+  color: white;
+  font-size: 24px;
+}
+
+.final-results{
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: black;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
